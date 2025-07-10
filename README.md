@@ -25,6 +25,9 @@ Then, place images into the samples folder. Then, run the following command.
 ./run.sh
 ```
 
+## Acknowledgement
+
+The original repo can be found [here](https://github.com/WildChlamydia/MiVOLO)
 
 ## MiVOLO pretrained models
 
