@@ -22,6 +22,19 @@
 
 [[`Paper 2023`](https://arxiv.org/abs/2307.04616)] [[`Paper 2024`](https://arxiv.org/abs/2403.02302)] [[`Demo`](https://huggingface.co/spaces/iitolstykh/age_gender_estimation_demo)] [[`Telegram Bot`](https://t.me/AnyAgeBot)] [[`BibTex`](#citing)] [[`Data`](https://wildchlamydia.github.io/lagenda/)]
 
+## Quick Usages
+
+Download the pretrained models :
+
+1. [Download](https://drive.google.com/file/d/1CGNCkZQNj5WkP3rLpENWAOgrBQkUWRdw/view) body + face detector model to `weights/yolov8x_person_face.pt`
+2. [Download](https://drive.google.com/file/d/11i8pKctxz3wVkDBlWKvhYIh7kpVFXSZ4/view) mivolo checkpoint to `weights/mivolo_imbd.pth.tar`
+
+Then, place images into the samples folder. Then, run the following command.
+
+```
+./run.sh
+```
+
 
 ## MiVOLO pretrained models
 
